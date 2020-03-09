@@ -1,0 +1,10 @@
+node{
+	stage('test'){
+		// 测试
+		echo 'Test环境'
+	}
+	stage('验收'){
+		//验收	
+		echo '验收环境'
+	}
+}
